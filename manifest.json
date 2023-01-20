@@ -1,0 +1,98 @@
+{
+  "Actions": [
+    {
+      "Icon": "logocut", 
+      "Name": "Title", 
+      "States": [
+        {
+          "Image": "logocut",
+          "TitleAlignment": "middle", 
+          "FontSize": "16",
+          "ShowTitle": false
+        }
+      ], 
+      "SupportedInMultiActions": false,
+      "Tooltip": "How many times did you get pwned today? Keep track with this counter.", 
+      "UUID": "io.lehenauer.apple-music-cider.action"
+    },
+    {
+      "Icon": "heart", 
+      "Name": "Like/Dislike", 
+      "States": [
+        {
+          "Image": "heart",
+          "TitleAlignment": "middle", 
+          "FontSize": "16",
+          "ShowTitle": false
+        }
+      ], 
+      "SupportedInMultiActions": false,
+      "UUID": "io.lehenauer.apple-music-cider.like"
+    },
+    {
+      "Icon": "play", 
+      "Name": "Play/Pause", 
+      "States": [
+        {
+          "Image": "play",
+          "TitleAlignment": "middle", 
+          "FontSize": "16",
+          "ShowTitle": false
+        }
+      ], 
+      "SupportedInMultiActions": false,
+      "UUID": "io.lehenauer.apple-music-cider.play"
+    },
+    {
+      "Icon": "backward", 
+      "Name": "Previous Song", 
+      "States": [
+        {
+          "Image": "backward",
+          "TitleAlignment": "middle", 
+          "FontSize": "16",
+          "ShowTitle": false
+        }
+      ], 
+      "SupportedInMultiActions": false,
+      "UUID": "io.lehenauer.apple-music-cider.backward"
+    },
+    {
+      "Icon": "forward", 
+      "Name": "Next Song", 
+      "States": [
+        {
+          "Image": "forward",
+          "TitleAlignment": "middle", 
+          "FontSize": "16",
+          "ShowTitle": false
+        }
+      ], 
+      "SupportedInMultiActions": false,
+      "UUID": "io.lehenauer.apple-music-cider.forward"
+    }
+  ], 
+  "SDKVersion": 2,
+  "Author": "mike-jl", 
+  "CodePath": "code.html", 
+  "Description": "Control the Cider Apple Music Player.", 
+  "Name": "Cider Apple Music", 
+  "Category": "Cider Apple Music", 
+  "CategoryIcon": "logocut",
+  "Icon": "logocut", 
+  "Version": "1.4",
+  "OS": [
+    {
+        "Platform": "mac", 
+        "MinimumVersion" : "10.11"
+    },
+    {
+        "Platform": "windows", 
+        "MinimumVersion" : "10"
+    }
+  ],
+  "Software": 
+    {
+        "MinimumVersion" : "4.1"
+    }
+}
